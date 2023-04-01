@@ -22,7 +22,7 @@
                 Console.WriteLine("\n\tEnter Person Identifier (Username): ");
                 string username = Console.ReadLine()!;
                 Console.Clear();
-                Console.WriteLine($"\n\t{username} has made conttact with:");
+                Console.WriteLine($"\n\t{username} has made contact with:");
                 SendMessage(username, channel, "Query");
                 Thread.Sleep(200);
 
